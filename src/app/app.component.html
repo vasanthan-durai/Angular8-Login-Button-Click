@@ -1,5 +1,5 @@
 <hello name="{{ name }}"></hello>
-<form >
+<form (ngSubmit)="callingFunction()">
   <table>
     <tr>
       <td>
@@ -22,7 +22,7 @@
    
       </td>
          <td>
-    <input type="button" name="login" value="Login" (click)="GetLogin()"  >
+    <input type="submit" name="login" value="Login"   >
       </td>
     </tr>
   </table>

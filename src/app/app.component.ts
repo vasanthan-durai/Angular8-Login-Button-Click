@@ -12,7 +12,7 @@ export class AppComponent  {
  public password:String;
 
 
-  GetLogin()
+  callingFunction()
   {
     debugger;
     alert(this.email);
