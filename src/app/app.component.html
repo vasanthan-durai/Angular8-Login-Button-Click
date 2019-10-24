@@ -1,0 +1,29 @@
+<hello name="{{ name }}"></hello>
+<form>
+  <table>
+    <tr>
+      <td>
+      User Name 
+      </td>
+       <td>
+    <input type="email" name="email" [ngModel]="email" >
+      </td>
+    </tr>
+    <tr>
+      <td>
+    Password
+      </td>
+         <td>
+    <input type="password" name="password" [ngModel]="password"  >
+      </td>
+    </tr>
+    <tr>
+      <td>
+   
+      </td>
+         <td>
+    <input type="button" name="login" value="Login" (click)="GetLogin()"  >
+      </td>
+    </tr>
+  </table>
+</form>
