@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms'
 
 @Component({
   selector: 'my-app',
@@ -9,6 +10,7 @@ export class AppComponent  {
  public name = 'Login';
  public email:string;
  public password:String;
+
 
   GetLogin()
   {
